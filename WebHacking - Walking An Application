@@ -1,0 +1,20 @@
+Through the page, how to manually review a web application for security issues are using only the in-built tools in browsers.
+The in-built browser tools which will be used :
+  1. View Source : Use browsers to view the human-readable source code of websites.
+  2. Inspector : Inspect page elements and make changes to view usually blocked content.
+  3. Debugger : Inspect and control the flow of a page's JavaScript.
+  4. Network : See all the network requets a page makes.
+
+In the page source, it could include so many information, 
+such as Frame work version, developers comments, hidden dirs, and files, etc., so I may find vulnerabilities.
+
+In Developer Tool kin, there are three key features.
+  1. Inspector : page source doesn't always represnt what's shown on a webpage, buy I can edit andinteract with the page elements which is helpful for web developers to debug issues.
+                 I can use that to find vulnerabilities. For example, turn off the hidden text button to be shown on the page, and so on.
+  2. Debugger: The developer tools are intended for debugging JS, but it gives me the option of digging deep into the JS code.
+               From debugging it by using break point, I may be able to find vulnerabilities. 
+               For example, I made break point before conditional statement, so I can what kind of logic is being used.
+  3. Network : The network tab on the tools can be used to keep track of every external request a webpage makes. Also, all the files the page is requesting.
+               Also, in this tab, I can see the HTML Headers, such as, request URL, Method, Status Code, Remote Address, Response Headers and etc., so  I could dig in the information to find vulnerabilities.
+               For example, in preview, developer may include imortant message.
+
